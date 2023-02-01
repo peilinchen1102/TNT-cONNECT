@@ -1,0 +1,63 @@
+.Card-container {
+  border: var(--darkgrey) 1px solid;
+  border-radius: var(--xs);
+  margin-top: var(--m);
+}
+
+.Card-container:first-of-type {
+  margin-top: var(--l);
+}
+
+.Card-story,
+.Card-commentSection {
+  padding: var(--m) var(--l);
+  font-family: Open Sans;
+  font-size: x-large;
+}
+
+.Card-storyUser {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Card-storyContent {
+  font-size: 35px;
+  margin: var(--s) 0 0;
+}
+
+.Card-commentSection {
+  background-color: var(--grey);
+  border-top: 2px solid var(--darkgrey);
+}
+
+.Card-commentBody {
+  margin: 0 0 var(--s);
+  font-size: large;
+}
+
+.Card-pic {
+  max-width: 100%;
+  height: 70px;
+  background-position: 50% 50%;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  margin-top: 5%;
+  left: 25px;
+}
+
+.Card-piccomment {
+  /* padding: 0 49%;
+  padding-top: 1%;
+  border-radius: 50%;
+  position: relative;
+
+  top: 0px;
+  left: -705px; */
+
+  max-width: 100%;
+  height: 40px;
+  background-position: 50% 50%;
+  background-size: cover;
+  object-fit: cover;
+}

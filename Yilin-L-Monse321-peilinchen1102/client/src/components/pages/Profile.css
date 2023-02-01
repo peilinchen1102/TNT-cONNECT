@@ -1,0 +1,89 @@
+.Profile-avatarContainer {
+  padding: 0 40%;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 0px;
+}
+
+.Profile-avatar {
+  /* make it responsive */
+  max-width: 100%;
+  width: 100%;
+  height: 0px;
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 0px;
+  /* div height to be the same as width*/
+  padding-top: 100%;
+
+  /* make it a circle */
+  border-radius: 50%;
+
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimension to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent*/
+
+  background-image: url(https://thumbs.dreamstime.com/b/iconic-image-social-networks-anonymous-very-personal-character-profile-over-bright-violet-background-148178936.jpg);
+}
+/*background-image: url("../../public/corgi.jpg");*/
+.Profile-name {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.Profile-line {
+  border-color: var(--grey);
+}
+
+.Profile-subContainer {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.Profile-subContainer + .Profile-subContainer {
+  margin-left: var(--m);
+}
+
+.Profile-subTitle {
+  font-weight: 300;
+  font-size: 24px;
+  margin: var(--m) var(--s);
+}
+.Profile-paragraph {
+  font-weight: 200;
+  font-size: 20px;
+  margin: var(--m) var(--s);
+  font-family: monospace;
+  text-align: center;
+}
+
+.Profile-pic {
+  position: relative;
+  top: -10px;
+  left: 25%;
+  margin: var(--m) var(--s);
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input,
+textarea {
+  width: 50%;
+}
+
+.Profile-pics {
+  position: relative;
+  top: 0px;
+  left: 25%;
+  margin: var(--m) var(--s);
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
