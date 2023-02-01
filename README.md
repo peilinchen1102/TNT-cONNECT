@@ -9,7 +9,7 @@ The following functionality is completed:
 
 ![image](https://user-images.githubusercontent.com/74634276/215938869-be274c86-9c5f-4e39-af85-154403bb19cd.png)
 
-![image](width='300', https://user-images.githubusercontent.com/74634276/215938883-d6ff23d7-e985-4f60-9142-8d79db27f6af.png)
+![image](https://user-images.githubusercontent.com/74634276/215938883-d6ff23d7-e985-4f60-9142-8d79db27f6af.png)
 
 
 ## License
